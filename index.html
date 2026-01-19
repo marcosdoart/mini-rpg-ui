@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel do jogo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="game-container">
+
+ <h1>Personagem</h1>
+
+<!--Status-->
+<section class="status-panel">
+
+<div class="status"> 
+<span>Hp</span>
+
+<div class="bar">
+<div id="hp-bar"></div>
+</div>
+<span id="hp-text">100/100</span>
+</div>
+
+<div class="status">
+<span>Mana</span>
+<div class="bar">
+<div id="mana-bar"></div>
+</div>
+<span id="mana-text">50/50</span>
+</div>
+
+<div class="status">
+<span>Xp</span>
+<div class="bar">
+ <div id="xp-bar"></div> 
+</div>
+<span id="xp-text"></span>
+</div>
+
+<div class="level">
+Level: <span id="level-text">1</span>
+
+</div>
+
+</section>
+
+<!---Açoes-->
+<section class="actions">
+<button id="battle-btn">Batalhar</button>
+<button id="potion-btn">Usar Poção</button>    
+</section>
+
+<!----Inventario-->
+<section class="inventory">
+<h2>Inventario</h2>
+<ul id="inventory-list">
+<li>Poção x3</li>
+</ul>
+</section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
